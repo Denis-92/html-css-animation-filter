@@ -155,3 +155,21 @@
 
     }
 }
+
+.ex-11-icon:hover {
+    animation: trequarti linear infinite 2s;
+}
+
+@keyframes trequarti {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    75% {
+        transform: rotate(0.75turn);
+    }
+
+    100% {
+        transform: rotate(0turn);
+    }
+}

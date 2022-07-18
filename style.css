@@ -127,3 +127,12 @@
 .ex-7-img:hover {
     filter: sepia(0.8) opacity(0.8);
 }
+
+.ex-8-img {
+    transition: border-radius 2s, filter 2s;
+}
+
+.ex-8-img:hover {
+    border-radius: 15px;
+    filter: sepia(0.8) brightness(0.8);
+}

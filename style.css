@@ -38,7 +38,6 @@
 .ex-7-img,
 .ex-8-img {
     width: 500px;
-    transition: border-radius 2s, filter 2s;
 }
 
 .ex-9-img {
@@ -109,7 +108,7 @@
 }
 
 .ex-5-square:hover {
-    transform: scale(150%)
+    transform: scale(150%);
 }
 
 .ex-5-square:active {
@@ -117,7 +116,13 @@
 }
 
 .ex-6-img:hover {
+    /* sbagliato! togli transition */
     filter: grayscale(1);
+}
+
+.ex-7-img,
+.ex-8-img {
+    transition: border-radius 2s, filter 2s;
 }
 
 .ex-7-img:hover {
@@ -136,19 +141,17 @@
 }
 
 .ex-10-icon {
-    animation-name: caricamento;
-    animation-duration: infinite;
+    animation: caricamento 1s linear infinite;
 }
 
-/*
+
 @keyframes caricamento {
     0% {
-        left: 0;
-        top: 0;
+        transform: rotate(0turn);
     }
 
-    25% {
-        
+    100% {
+        transform: rotate(-1turn);
+
     }
 }
-*/

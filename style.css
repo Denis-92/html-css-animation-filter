@@ -132,5 +132,23 @@
 .ex-9-img:hover {
     border-radius: 15px;
     filter: grayscale(1) sepia(0.5);
-    transform: scaleX(1.5) scaleY(1.5);
+    transform: scale(150%);
 }
+
+.ex-10-icon {
+    animation-name: caricamento;
+    animation-duration: infinite;
+}
+
+/*
+@keyframes caricamento {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        
+    }
+}
+*/

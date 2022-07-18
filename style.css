@@ -125,5 +125,5 @@
 }
 
 .ex-7-img:hover {
-    filter: sepia(0.8);
+    filter: sepia(0.8) opacity(0.8);
 }
